@@ -3,16 +3,18 @@ import React, {useState} from 'react';
 function Room() {
   let [isLit, setLit] = useState(false);
   let [age,setage] = useState(23);
-  function updateLit(){
-        console.log("Button Clicked");
-        setLit(!isLit)
-  }
+  
+   // these functions are implemented in an alternative ways below
+  //function updateLit(){
+  //      console.log("Button Clicked");
+  //      setLit(!isLit)
+ // }
 
-  function increaseage(){
-    console.log("Increase Age");
-    setage(++age)
+  //function increaseage(){
+   // console.log("Increase Age");
+  // setage(++age)
 
-  }
+  //}
 
   return (
     <div>
@@ -20,9 +22,9 @@ function Room() {
       <br/>
         Age= {age}
       <br/>
-      <button onClick={updateLit} >Toggle Light</button>
+      <button onClick={()=>setLit(!isLit)} >Toggle Light</button>
       <br/>
-      <button onClick={increaseage} >Increase Age</button>
+      <button onClick={()=>setage(++age)} >Increase Age</button>
     </div>
   );
 }
