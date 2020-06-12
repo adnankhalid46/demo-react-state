@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+/*import logo from './logo.svg'; */
 import './App.css';
-import Room from './Room';
+import Room2 from './Room_2';
 
 function App() {
   return ( 
     <div>
-      <Room></Room>
+      <Room2></Room2>
     </div>
   );
 }

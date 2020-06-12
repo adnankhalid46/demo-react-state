@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import './Room_2.css';
 
 
-function Room1() {
+function Room2() {
     let[isLit,setLit]=useState(true);
     let[temperature,setTemperature]=useState(72);
     function Lit()
@@ -47,4 +47,4 @@ function Room1() {
   );
 }
 
-export default Room_2;
+export default Room2;
