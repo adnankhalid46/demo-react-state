@@ -1,0 +1,37 @@
+.room
+{
+    height:100%;
+}
+.dark
+{
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+.lit
+{
+    background-color: white;
+    background-size: cover;
+    color: black;
+}
+
+.litbtn{
+    background: white ;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+.darkbtn
+{
+    background: black;
+    height: 100px;
+    width: 100px;   
+    background-size: cover;
+}
+button
+{
+    width: 120px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+}
